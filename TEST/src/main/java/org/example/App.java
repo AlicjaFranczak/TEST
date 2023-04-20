@@ -15,5 +15,11 @@ public class App
         for(String city : citiesEU) {
             System.out.println(city);
         }
+        for (int i = citiesEU.length -1 ; i >= 0 ; i--) {
+            System.out.println(citiesEU[i]);
+        }
+        for (int i = 0; i < citiesEU.length ; i = i+2) {
+            System.out.println(citiesEU[i]);
+        }
     }
 }
